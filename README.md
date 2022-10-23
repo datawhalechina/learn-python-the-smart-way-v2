@@ -1,6 +1,5 @@
-
 > 聪明办法学 Python 第二版（P2S）正式开始小范围内测 🎉🎉
-> 
+>
 > 欢迎同学们广泛提供建议与意见，以帮助我们改进课程  😀
 
 # 课程简介
@@ -14,10 +13,10 @@
 
 # 课程进度
 
-| 教程大纲    | Slide                                                                                                          | 视频 | 时间 | 负责助教 |
-| ----------- | -------------------------------------------------------------------------------------------------------------- | ---- | :--: | -------- |
-| Chap 0 安装 |                                                                                                                |      |      |          |
-| Chap 1 启航 | [ipynb](https://github.com/anine09/learn-python-the-smart-way-v2/blob/main/slide/chapter_1-Getting_Started.ipynb) |      |      | @anine09 |
+| 教程大纲    | 负责助教                            | 时间  |                                                                                                             幻灯片                                                                                                             | 视频                                                 | 文字教程                                                            | 作业                                               | 课程讨论                                            |
+| ----------- | ----------------------------------- | ----- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ---------------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------- | --------------------------------------------------- |
+| Chap 0 安装 | [@zarjun](https://github.com/zarjun)   | 10/23 |    [github](https://github.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_0-Installation.ipynb)/[gitee](https://gitee.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_0-Installation.ipynb)    | [bilibili](https://www.bilibili.com/video/BV1im4y1w75Q) | [feishu](https://datawhale.feishu.cn/docx/XziQdLdDsoMIAZxdA8YcLbJ3n5e) | [datawhale](http://forum.datawhale.club/t/topic/4415) | [datawhale ](http://forum.datawhale.club/t/topic/4416) |
+| Chap 1 启航 | [@anine09](https://github.com/anine09) |       | [github](https://github.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_1-Getting_Started.ipynb)/[gitee](https://gitee.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_1-Getting_Started.ipynb) |                                                      |                                                                     |                                                    |                                                     |
 
 # 课程背景
 
@@ -55,27 +54,24 @@
 # 教学团队
 
 - **[@anine09](https://github.com/anine09) 骆秀韬**，**[epsilon_luoo@outlook.com](mailto:epsilon_luoo@outlook.com)**
-  
-  直播授课、教学大纲、Slide 设计
-  
-  *湖北第二师范学院，21 级材料物理本科在读*
 
+  直播授课、教学大纲、Slide 设计
+
+  *湖北第二师范学院，21 级材料物理本科在读*
 - **王耀晨**，**[wbyz777@foxmail.com](mailto:wbyz777@foxmail.com)**
 
   作业制作、Online Judge 团队维护
-  
+
   *南京邮电大学，21 级计算机科学与技术本科在读*
-
 - **王家齐**，**[wangjiaqi2651@link.tyut.edu.cn](mailto:wangjiaqi2651@link.tyut.edu.cn)**
-  
-  作业验证、教学反馈
-  
-  *太原理工大学，21 级数据科学与大数据技术本科在读*
 
+  作业验证、教学反馈
+
+  *太原理工大学，21 级数据科学与大数据技术本科在读*
 - **张凯旋**，**[zhangkx12022@shanghaitech.edu.cn](mailto:zhangkx12022@shanghaitech.edu.cn)**
-  
+
   作业验证、教学进度
-  
+
   *上海科技大学，22 级电子科学与技术硕士在读*
 
 # 答疑交流
