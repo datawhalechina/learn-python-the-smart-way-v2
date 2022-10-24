@@ -143,7 +143,7 @@ Office Hours 代表助教们在教学中的主要办公时间，我们**推荐�
 - [课程大纲](https://datawhale.feishu.cn/docx/OsiadroI8oM3Lqx3Sw8cjaO5nRd)
 - [课程分工](https://datawhale.feishu.cn/docx/RD3hdyyLQo570dxG6fvcQClcn2u)
 - [作业验证](https://datawhale.feishu.cn/docx/PViMdNXPBo8zgDxZSDqcM6Qynof)
-- [在线测评](https://vijos.org/d/datawhale_p2s/p)
+- [在线测评](https://vijos.org/d/datawhale_p2s/join)
 
 # 参与贡献
 
