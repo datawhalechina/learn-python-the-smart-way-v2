@@ -127,6 +127,14 @@ Office Hours 代表助教们在教学中的主要办公时间，我们**推荐�
   - Online Judge（限制性发放邀请码）：[Learn Python The Smart Way - Vijos](https://vijos.org/d/datawhale_p2s/)
 - 大作业书籍（**并不要求购买！** 只是说明是哪本书）：[Make Your Own Neural Network by Tariq Rashid  - Amazon](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G/)
 
+## 教学团队工作文档
+
+- [课程主页](https://anine09.github.io/learn-python-the-smart-way-v2/)
+- [课程大纲](https://datawhale.feishu.cn/docx/OsiadroI8oM3Lqx3Sw8cjaO5nRd)
+- [课程分工](https://datawhale.feishu.cn/docx/RD3hdyyLQo570dxG6fvcQClcn2u)
+- [作业验证](https://datawhale.feishu.cn/docx/PViMdNXPBo8zgDxZSDqcM6Qynof)
+- [在线测评](https://vijos.org/d/datawhale_p2s/p)
+
 # 参与贡献
 
 **我们十分欢迎同学们对本教程做出贡献，对于贡献者能力我们不设置任何要求！**
