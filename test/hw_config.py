@@ -53,5 +53,7 @@ def zip_file(problem, address):
             archive.write(file_list)
     os.chdir(os.path.dirname(__file__))
 
-
-generator("chap1_hw", "Draw Datawhale", 1)
+chap = input("Chap@")
+problem = input("Problem@")
+test_num = int(input("test_num@"))
+generator(chap, problem, test_num)

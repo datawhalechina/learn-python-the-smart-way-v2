@@ -1,0 +1,1 @@
+the product of -1 and 5 is: -5
