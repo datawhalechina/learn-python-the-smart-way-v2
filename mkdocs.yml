@@ -1,5 +1,5 @@
 # Project Information
-site_name: Project P2S
+site_name: 聪明办法学 Python 第二版内测
 site_description: 聪明方法学Python，简明且系统的 Python 入门教程第二版。
 site_author: P2S Team
 site_url: https://anine09.github.io/learn-python-the-smart-way-v2/
@@ -11,14 +11,21 @@ repo_url: 'https://github.com/anine09/learn-python-the-smart-way-v2'
 edit_uri: 'blob/master/docs/'
 
 # Copyright
-copyright: 'Copyright &copy; 2022 - 2023 P2S Team'
+copyright: 'Copyright &copy; 2022 - 2023 Datawhale P2S Team'
 
 # Contents
 nav:
   - 简介:
-    - Welcome: index.md
-  - 关于 Datawhale:
-    -  关于 Datawhale: intro/datawhale.md
+    - 课程简介: index.md
+    - 课程背景: background.md
+  - 教学团队: team.md
+  - 课程进度: schedule.md
+  - 学习目标: aims.md
+  - 授课形式: method.md
+  - 答疑交流: question.md
+  - 课程资源: reference.md
+  - 参与贡献: contribute.md
+  - 关于 Datawhale: datawhale.md
 
 theme:
   name: material
