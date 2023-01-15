@@ -1,0 +1,81 @@
+# Project Information
+site_name: Project P2S
+site_description: 聪明方法学Python，简明且系统的 Python 入门教程第二版。
+site_author: P2S Team
+site_url: https://anine09.github.io/learn-python-the-smart-way-v2/
+strict: false
+
+# Repository
+repo_name: 'anine09/learn-python-the-smart-way-v2'
+repo_url: 'https://github.com/anine09/learn-python-the-smart-way-v2'
+edit_uri: 'blob/master/docs/'
+
+# Copyright
+copyright: 'Copyright &copy; 2022 - 2023 P2S Team'
+
+# Contents
+nav:
+  - 简介:
+    - Welcome: index.md
+  - 关于 Datawhale:
+    -  关于 Datawhale: intro/datawhale.md
+
+theme:
+  name: material
+  palette:
+    #primary: blue grey
+  
+    - scheme: default # 日间模式
+      primary: grey # 上方的
+      accent: cyan # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: black 
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
+  features: 
+    - navigation.instant #- header.autohide  #自动隐藏
+    - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+    - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+    - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - navigation.expand # 打开Tab时左侧目录全部展开
+  language: zh # 一些提示性的文字会变成中文
+
+
+extra:
+  generator: false
+
+plugins:
+  - search
+  - tags  #标签
+markdown_extensions:
+  - abbr
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html
+  - pymdownx.arithmatex:  # latex支持
+      generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      # linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences # 代码块高亮插件
+  - meta # 支持Markdown文件上方自定义标题标签等
+ 
