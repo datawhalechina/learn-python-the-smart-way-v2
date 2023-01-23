@@ -1,14 +1,8 @@
-## **欢迎来到 聪明办法学 Python 2nd Edition (Beta)!**
-
-[![GitHub watchers](https://img.shields.io/github/watchers/anine09/learn-python-the-smart-way-v2.svg?style=social&label=Watch)](https://github.com/anine09/learn-python-the-smart-way-v2)  [![GitHub stars](https://img.shields.io/github/stars/anine09/learn-python-the-smart-way-v2.svg?style=social&label=Stars)](https://github.com/anine09/learn-python-the-smart-way-v2)
-
-> **由于课业压力，项目暂停至寒假**
+## **欢迎来到 聪明办法学 Python 2nd Edition (Beta)!** [![GitHub stars](https://img.shields.io/github/stars/anine09/learn-python-the-smart-way-v2.svg?style=social&label=Stars)](https://github.com/anine09/learn-python-the-smart-way-v2)
 
 > 聪明办法学 Python 第二版（P2S）正式开始小范围内测 🎉🎉
 >
 > 欢迎同学们广泛提供建议与意见，以帮助我们改进课程  😀
-
-
 
 # 课程简介
 
