@@ -18,7 +18,8 @@ nav:
           - 课程简介: index.md
           - 课程背景: Index/background.md
           - 课程公告: Index/announcements.md
-    - 教学团队: Team/team.md
+    - 教学团队: 
+        - 团队成员: Team/team.md
     - 课程进度:
           - 课程进度列表: Schedule/schedule.md
           - 进度详情:
@@ -77,6 +78,7 @@ extra:
 plugins:
     - search
     - tags #标签
+    - glightbox
 
 markdown_extensions:
     - abbr
