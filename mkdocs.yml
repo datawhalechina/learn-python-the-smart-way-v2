@@ -1,94 +1,109 @@
 # Project Information
-site_name: 聪明办法学 Python 第二版内测
+site_name: 聪明办法学 Python 第二版
 site_description: 聪明方法学Python，简明且系统的 Python 入门教程第二版。
 site_author: P2S Team
 site_url: https://anine09.github.io/learn-python-the-smart-way-v2/
 strict: false
 
 # Repository
-repo_name: 'anine09/learn-python-the-smart-way-v2'
-repo_url: 'https://github.com/anine09/learn-python-the-smart-way-v2'
-edit_uri: 'blob/master/docs/'
+repo_name: "anine09/learn-python-the-smart-way-v2"
+repo_url: "https://github.com/anine09/learn-python-the-smart-way-v2"
 
 # Copyright
-copyright: 'Copyright &copy; 2022 - 2023 Datawhale P2S Team'
+copyright: "Copyright &copy; 2022 - 2023 Datawhale P2S Team"
 
 # Contents
 nav:
-  - 简介:
-    - 课程简介: index.md
-    - 课程背景: background.md
-  - 教学团队: team.md
-  - 课程进度: 
-    - 课程进度列表: schedule.md
-    - 进度详情:
-      - Chap 0 安装: schedule_detail/chap0.md
-      - Chap 1 启航: schedule_detail/chap1.md
-      - Chap 2 数据类型和操作: schedule_detail/chap2.md
-      - Chap 3 变量与函数: schedule_detail/chap3.md 
-  - 学习目标: aims.md
-  - 授课形式: method.md
-  - 答疑交流: question.md
-  - 课程资源: reference.md
-  - 参与贡献: contribute.md
-  - 关于 Datawhale: datawhale.md
+    - 简介:
+          - 课程简介: index.md
+          - 课程背景: Index/background.md
+          - 课程公告: Index/announcements.md
+    - 教学团队: Team/team.md
+    - 课程进度:
+          - 课程进度列表: Schedule/schedule.md
+          - 进度详情:
+                - Chap 0 安装: Schedule/schedule_detail/chap0.md
+                - Chap 1 启航: Schedule/schedule_detail/chap1.md
+                - Chap 2 数据类型和操作: Schedule/schedule_detail/chap2.md
+                - Chap 3 变量与函数: Schedule/schedule_detail/chap3.md
+    - 学习目标: Aims/aims.md
+    - 授课形式: Method/method.md
+    - 答疑交流: Question/question.md
+    - 课程资源: Reference/reference.md
+    - 参与贡献:
+          - 如何贡献: Contribute/contribute.md
+          - 项目结构: Contribute/repo_tree.md
+          - 教学团队工作流: Contribute/workflows.md
+          - 贡献细则:
+                - 课程主页、论坛进度: Contribute/contribute_detail/web_and_forum.md
+                - 作业发布、作业验证: Contribute/contribute_detail/homework.md
+                - 直播辅助、视频剪辑: Contribute/contribute_detail/live_and_video.md
+                - 文字教程、反馈收集: Contribute/contribute_detail/textbook_and_feedback.md
+                - 进度跟进、答疑讨论: Contribute/contribute_detail/progress_and_discuss.md
+                - 课程大纲、课程内容: Contribute/contribute_detail/outline_and_content.md
+    - 关于 Datawhale: About/datawhale.md
 
 theme:
-  name: material
-  palette:
-    #primary: blue grey
-  
-    - scheme: default # 日间模式
-      primary: grey # 上方的
-      accent: cyan # 链接等可交互元件的高亮色
-      toggle:
-        icon: material/weather-night # 图标
-        name: 切换至夜间模式 # 鼠标悬浮提示
-    - scheme: slate # 夜间模式
-      primary: black 
-      accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: 切换至日间模式
-  features: 
-    - navigation.instant #- header.autohide  #自动隐藏
-    - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
-    - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
-    - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
-    - navigation.top # 返回顶部的按钮 在上滑时出现
-    - search.suggest # 搜索输入一些字母时推荐补全整个单词
-    - search.highlight # 搜索出的文章关键词加入高亮
-    - navigation.expand # 打开Tab时左侧目录全部展开
-  language: zh # 一些提示性的文字会变成中文
-
+    name: material
+    logo: images/small_datawhale_logo.png
+    palette:
+        - scheme: default # 日间模式
+          primary: white # 上方的
+          accent: red # 链接等可交互元件的高亮色
+          toggle:
+              icon: material/weather-night # 图标
+              name: 切换至夜间模式 # 鼠标悬浮提示
+        - scheme: slate # 夜间模式
+          primary: black
+          accent: yellow
+          toggle:
+              icon: material/weather-sunny
+              name: 切换至日间模式
+    features:
+        - navigation.instant #- header.autohide  #自动隐藏
+        - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+        - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+        - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+        - navigation.top # 返回顶部的按钮 在上滑时出现
+        - search.suggest # 搜索输入一些字母时推荐补全整个单词
+        - search.highlight # 搜索出的文章关键词加入高亮
+        - content.code.copy # 代码块右侧复制到剪切板
+        #- navigation.expand # 打开Tab时左侧目录全部展开
+    language: zh # 一些提示性的文字会变成中文
 
 extra:
-  generator: false
+    generator: false
 
 plugins:
-  - search
-  - tags  #标签
+    - search
+    - tags #标签
+
 markdown_extensions:
-  - abbr
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-  - md_in_html
-  - pymdownx.arithmatex:  # latex支持
-      generic: true
-  - toc:
-      permalink: true # 固定标题位置为当前位置
-  - pymdownx.highlight: # 代码块高亮
-      anchor_linenums: true
-      # linenums: true # 显示行号
-      # auto_title: true # 显示编程语言名称
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.superfences # 代码块高亮插件
-  - meta # 支持Markdown文件上方自定义标题标签等
- 
+    - abbr
+    - pymdownx.arithmatex: # MathJax 支持
+          generic: true
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    - md_in_html
+    - toc:
+          permalink: true # 固定标题位置为当前位置
+    - pymdownx.highlight: # 代码块高亮
+          anchor_linenums: true
+          linenums: true # 显示行号
+          #auto_title: true # 显示编程语言名称
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences # 代码高亮支持
+    - tables
+    - attr_list
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - admonition
+    - pymdownx.details
+
+extra_javascript:
+    - javascripts/mathjax.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
