@@ -51,6 +51,7 @@
 <big>潘笃驿</big>
 
 :fontawesome-solid-envelope: **[panduyi_azula@foxmail.com](mailto:panduyi_azula@foxmail.com)**
+
 :fontawesome-solid-graduation-cap: *西安电子科技大学，21 级人工智能本科在读*
 </div>
 
