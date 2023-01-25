@@ -1,7 +1,7 @@
 # 教学团队
 
 <div align="center">
-<img style="height: 100px; border-radius: 50px" src="../../images/team/xiutao_luo.jpg">
+<img style="height: 100px; border-radius: 50px" src="https://sdn.geekzu.org/avatar/5d20b33b9f29623fd4772aca3599b6df">
 </div>
 <div align="center" markdown>
 <big>骆秀韬</big>
