@@ -7,7 +7,7 @@
 
 ### 概述
 
-我们的[课程主页](https://anine09.github.io/learn-python-the-smart-way-v2/)托管在 Github Page 上，目前已经做到了自动部署，配置文件是 `.github\workflows\ci.yml`，一般情况下**无需更改 `ci.yml`**。
+我们的[课程主页][homepage]托管在 Github Page 上，目前已经做到了自动部署，配置文件是 `.github\workflows\ci.yml`，一般情况下**无需更改 `ci.yml`**。
 
 目前仓库还是归属在 [@anine09](https://github.com/anine09)，在整个项目初步完善后会移交至 [@Datawhale](https://github.com/datawhalechina)。
 
@@ -38,9 +38,9 @@ Material for MkDocs 提供了一些很漂亮的展示效果，推荐阅读[官�
 !!! warning "添加页面时需注意"
     每次添加一个页面，需要修改 `mkdocs.yml` 的 `nav` 部分。
 
-    可以参考[网站页面结构](../repo_tree.md#_3)来进行修改，并更新这个页面的内容。
+    可以参考[网站页面结构][website_tree]来进行修改，并更新这个页面的内容。
 
-如果需要在网页 Markdown 文件内指向另一个网页 Markdown 文件，请使用**项目目录的相对路径**。并且可以使用 `#_*数字*` 来指定跳转的标题，比如点击[这个](./web_and_forum.md#_1)就可以跳转到开头。点击标题旁形如 :fontawesome-solid-paragraph: 的按钮，就可以在浏览器的地址栏看到具体的地址（末尾以 `#` 开头的部分）。
+如果需要在网页 Markdown 文件内指向另一个网页 Markdown 文件，请使用**项目目录的相对路径**。并且可以使用 `#_*数字*` 来指定跳转的标题，比如点击[这个](#_1)就可以跳转到本页面的开头。点击标题旁形如 :fontawesome-solid-paragraph: 的按钮，就可以在浏览器的地址栏看到具体的地址（末尾以 `#` 开头的部分）。
 
 By the way，如果需要输入 emoji 和 icon，请参阅：[Icons, Emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/?h=icon)。
 
@@ -52,13 +52,31 @@ By the way，如果需要输入 emoji 和 icon，请参阅：[Icons, Emojis](htt
 
 当新的教学内容发布后，需要在 Datawhale 论坛的相关 Tag 下发布课程讨论的帖子，例如：[[P2S] 课程讨论 - Chap 1 启航 Getting Started](http://forum.datawhale.club/t/topic/4435)。
 
-帖子发布后请关注它，以便及时收到反馈，并更新[课程公告](../../Index/announcements.md)、[项目仓库结构](../repo_tree.md#_2)和[网站页面结构](../repo_tree.md#_3)等内容。
+帖子发布后请关注它，以便及时收到反馈，并更新[课程公告][course_announcement]、[项目仓库结构][repo_tree]和[网站页面结构][website_tree]等内容。
 
-我们需要新的发帖模板，请指定相关可行方案。
+!!! note "Markdown 链接规范"
+    如果需要在 Markdown 中使用链接，请遵循以下规范：
+
+    - 外部链接直接使用 `[链接显示名](链接地址)` 语法。
+    - 与本项目相关的链接，如其他 md 文件、项目网址等，需要使用 `[链接显示名][链接标签]` 语法，将引用内容放置文件末尾，且保证 `链接标签` 命名是有意义的。语法参考：[Markdown 链接语法](https://markdown.com.cn/basic-syntax/links.html#%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E9%93%BE%E6%8E%A5)。
+    - 所有图片内容保存在  `docs/images` 的相关文件夹下，并保证命名是有意义的，使用 `![][*数字标签*]`，同样将引用内容放置文件末尾，可以使用 `<figcaption>` 标签[添加图片描述](https://squidfunk.github.io/mkdocs-material/reference/images/#image-captions)，这不是强制选项。
+
+    <figure markdown>
+    ![][1]
+    <figcaption>参考示例</figcaption>
+    </figure>
+
+**我们需要新的发帖模板，请指定相关可行方案。**
 
 
 !!! info inline end "联系教学团队"
     如果你对这部分内容有任何问题，请联系教学团队寻求帮助。
 
     [联系教学团队 :fontawesome-solid-envelope:][mail_to_team]{ .md-button }
-    [mail_to_team]: ../../Team/team.md
+    
+[mail_to_team]: ../../Team/team.md
+[homepage]: https://anine09.github.io/learn-python-the-smart-way-v2/
+[website_tree]: ../repo_tree.md#_3
+[course_announcement]: ../../Index/announcements.md
+[repo_tree]: ../repo_tree.md#_2
+[1]: ../../images/contribute/markdown_link.png

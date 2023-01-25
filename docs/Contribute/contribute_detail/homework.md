@@ -12,7 +12,7 @@
 
 由于 Vijos 已经很久没有人更新维护了，并且相关文档并不完善，只能是勉强能用的地步。我们计划逐步将 OJ 迁移至 [Hydro](https://hydro.ac/)，该小组的负责人需要将这个计划提上日程，并做好测试。
 
-需要[联系教学团队](../../Team/team.md)以获得 OJ 的助教权限，才能创建和修改题目。
+需要[联系教学团队][mail_to_team]以获得 OJ 的助教权限，才能创建和修改题目。
 
 请尽量多阅读[官方帮助手册](https://vijos.org/wiki/help)，因为我们对这个 OJ 的了解其实也不多。
 
@@ -34,6 +34,7 @@
     如果你对这部分内容有任何问题，请联系教学团队寻求帮助。
 
     [联系教学团队 :fontawesome-solid-envelope:][mail_to_team]{ .md-button }
-    [mail_to_team]: ../../Team/team.md
 
-[1]:../../images/contribute/create_problem.png
+
+[mail_to_team]: ../../Team/team.md
+[1]: ../../images/contribute/create_problem.png
