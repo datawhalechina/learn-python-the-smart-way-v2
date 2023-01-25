@@ -17,9 +17,9 @@
 <div align="center" markdown>
 <big>张凯旋</big>
 
-:fontawesome-solid-envelope: **[epsilon_luoo@outlook.com](mailto:epsilon_luoo@outlook.com)**
+:fontawesome-solid-envelope: **[zhangkx12022@shanghaitech.edu.cn](mailto:zhangkx12022@shanghaitech.edu.cn)**
 
-:fontawesome-solid-graduation-cap: *湖北第二师范学院，21 级材料物理本科在读*
+:fontawesome-solid-graduation-cap: *上海科技大学，22 级电子科学与技术研究生在读*
 </div>
 
 <div align="center">
