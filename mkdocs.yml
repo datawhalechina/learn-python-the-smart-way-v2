@@ -6,8 +6,8 @@ site_url: https://anine09.github.io/learn-python-the-smart-way-v2/
 strict: false
 
 # Repository
-repo_name: "anine09/learn-python-the-smart-way-v2"
-repo_url: "https://github.com/anine09/learn-python-the-smart-way-v2"
+repo_name: "datawhalechina/learn-python-the-smart-way-v2"
+repo_url: "https://github.com/datawhalechina/learn-python-the-smart-way-v2"
 
 # Copyright
 copyright: "Copyright &copy; 2022 - 2023 Datawhale P2S Team"

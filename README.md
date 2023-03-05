@@ -1,9 +1,3 @@
-> **由于课业压力，项目暂停至寒假**
-
-> 聪明办法学 Python 第二版（P2S）正式开始小范围内测 🎉🎉
->
-> 欢迎同学们广泛提供建议与意见，以帮助我们改进课程  😀
-
 # 课程简介
 
 **聪明办法学 Python 第二版**是 Datawhale 基于[第一版](https://github.com/datawhalechina/learn-python-the-smart-way)教程的一次大幅更新。我们尝试在教程中融入更多**计算机科学**与**人工智能**相关的内容，制作“面向人工智能的 Python 专项教程”。
@@ -13,22 +7,13 @@
 1. ***Learn Python The Smart Way V2***，“聪明办法学 Python 第二版”的缩写。
 2. ***Prepare To Be Smart***， 我们希望同学们学习这个教程后能**学习到聪明的办法，从容的迈入人工智能的后续学习**。
 
-# 课程进度
-
-| 教程大纲               | 负责助教                            | 时间  |                                                                                                                      幻灯片                                                                                                                      | 视频                                                                                                                    | 文字教程                                                            | 作业                                                                      | 课程讨论                                            |
-| ---------------------- | ----------------------------------- | ----- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------- |
-| Chap 0 安装            | [@zarjun](https://github.com/zarjun)   | 10/23 |             [github](https://github.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_0-Installation.ipynb)/[gitee](https://gitee.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_0-Installation.ipynb)             | [bilibili](https://www.bilibili.com/video/BV1im4y1w75Q)                                                                    | [feishu](https://datawhale.feishu.cn/docx/OlVtdV8aJo6b9wxFZcgcPcv6nJf) | [datawhale](http://forum.datawhale.club/t/topic/4415)                        | [datawhale ](http://forum.datawhale.club/t/topic/4416) |
-| Chap 1 启航            | [@anine09](https://github.com/anine09) | 10/29 |          [github](https://github.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_1-Getting_Started.ipynb)/[gitee](https://gitee.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_1-Getting_Started.ipynb)          | [(test) wemeet](https://meeting.tencent.com/user-center/shared-record-info?id=929ef39e-8766-4433-abb8-12a28991da0d&from=3) | [feishu](https://datawhale.feishu.cn/docx/Bwk8dQgOnoGTLzxAI7pcCTmdnDf) | [vijos](https://vijos.org/d/datawhale_p2s/homework/6366ae61f413620c3facb515) | [datawhale](http://forum.datawhale.club/t/topic/4435)  |
-| Chap 2 数据类型和操作 | [@anine09](https://github.com/anine09) |       | [github](https://github.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_2-Data_Types_and_Operators.ipynb)/[gitee](https://gitee.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_2-Data_Types_and_Operators.ipynb) |                                                                                                                         |                                                                     | [vijos](https://vijos.org/d/datawhale_p2s/homework/636a18d9f413620c3facc71f) |                                                     |
-| Chap 3 变量与函数      | [@anine09](https://github.com/anine09) |       |  [github](https://github.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_3-Variables_and_Functions.ipynb)/[gitee](https://gitee.com/anine09/learn-python-the-smart-way-v2/blob/main/slides/chapter_3-Variables_and_Functions.ipynb)  |                                                                                                                         |                                                                     |                                                                           |                                                     |
-
 # 课程背景
 
 由[小雨姑娘](https://github.com/ChuanyuXue)在一年前创立了[*聪明办法学 Python 第一版*](https://github.com/datawhalechina/learn-python-the-smart-way)的教程，并为其录制了[视频课](https://www.bilibili.com/video/BV1hv411n7Yg)。第一版教程希望提供一个更快捷有效的 Python 入门途径，让同学们在最短时间内补充需要的知识技能，从而更快完成自己的目标。不仅教授 Python 知识，还教授聪明的办法。所以教程在 **“快速”与“简明”** 的核心思想下诞生了。
 
 在这一年中，许多同学通过这门教程受益，同时也为教程提供了很多宝贵意见。在小雨姑娘当初编写教程时，可能内容写的稍微简短了些，导致同学们很难体会到其中的“聪明的办法”。以及由于学业压力，小雨姑娘无法投入太多时间用于教程的更新迭代。
 
-@anine09 在今年暑假接触到第一版教程后，发现这个教程有很多值得改进的空间。在与小雨姑娘交流后，开始着手筹备新版教程的工作，收集了同学们在学习 Python 过程中的困惑和痛点，研究了其他高校关于 Python 入门的课程，重新规划了教程的编写方式，并在 [**Datawhale 高校联盟**](https://xj15uxcopw.feishu.cn/docx/doxcnML3Hm4inYGRgM3Z5Ige2Qf) 中组建了 **聪明办法学 Python 教学团队**。
+[@anine09](https://github.com/anine09) 在今年暑假接触到第一版教程后，发现这个教程有很多值得改进的空间。在与小雨姑娘交流后，开始着手筹备新版教程的工作，收集了同学们在学习 Python 过程中的困惑和痛点，研究了其他高校关于 Python 入门的课程，重新规划了教程的编写方式，并在 [**Datawhale 高校联盟**](https://xj15uxcopw.feishu.cn/docx/doxcnML3Hm4inYGRgM3Z5Ige2Qf) 中组建了 **聪明办法学 Python 教学团队**。
 
 # 学习目标
 
@@ -55,44 +40,6 @@
   - 阅读《Make Your Own Neural Network》
   - 依照书籍上的内容完成 MNIST 手写数字识别
 
-# 教学团队
-
-- **骆秀韬**，**[epsilon_luoo@outlook.com](mailto:epsilon_luoo@outlook.com)**
-
-  - 课程主页、作业发布、直播授课、课程大纲、课程内容
-  - *湖北第二师范学院，21 级材料物理本科在读*
-- **王耀晨**，**[wbyz777@foxmail.com](mailto:wbyz777@foxmail.com)**
-
-  - 作业发布、作业验证
-  - *南京邮电大学，21 级计算机科学与技术本科在读*
-- **王家齐**，**[wangjiaqi2651@link.tyut.edu.cn](mailto:wangjiaqi2651@link.tyut.edu.cn)**
-
-  - 课程主页、论坛进度、直播辅助、视频剪辑
-  - *太原理工大学，21 级数据科学与大数据技术本科在读*
-- **张凯旋**，**[zhangkx12022@shanghaitech.edu.cn](mailto:zhangkx12022@shanghaitech.edu.cn)**
-
-  - 作业验证、进度跟进、答疑讨论、课程大纲、课程内容
-  - *上海科技大学，22 级电子科学与技术研究生在读*
-- **徐辉**，**[yoga326@163.com](mailto:yoga326@163.com)**
-
-  - 作业验证，课程内容
-  - *武汉纺织大学，21 级材料化工研究生在读*
-- **潘笃驿**，**[panduyi_azula@foxmail.com](mailto:panduyi_azula@foxmail.com)**
-
-  - 作业发布、作业验证、文字教程、反馈收集
-  - *西安电子科技大学，21 级人工智能本科在读*
-- **揭熔阳**，**[starlight09012022@163.com](mailto:starlight09012022@163.com)**
-
-  - 课程内容、文字教程、反馈收集
-  - *哈尔滨工业大学（威海），20 级计算机科学与技术本科在读*
-- **王佳乐**
-
-  - 作业发布、作业验证
-  - *哈尔滨工程大学*
-- **刘兴**
-
-  - *西北工业大学，22 级计算机科学与技术研究生在读*
-
 # 答疑交流
 
 ## 提问方式
@@ -101,7 +48,6 @@
 
 - 论坛相关帖子
 - 各助教邮箱
-- 微信群里 @助教XXX
 
 注：由于我们的课程会大量涉及代码，微信对大段文字、代码的支持不太友好，传输文件也不方便，所以我们推荐同学们**直接在论坛发帖提问并 @ 助教**，或者给助教发邮件。方面助教处理同学们遇到的问题，但是我们**并不反对在微信群提问**。
 
@@ -145,14 +91,6 @@ Office Hours 代表助教们在教学中的主要办公时间，我们**推荐�
   - Github：[聪明方法学Python，简明且系统的 Python 入门教程第二版。](https://github.com/anine09/learn-python-the-smart-way-v2)
   - Online Judge（限制性发放邀请码）：[Learn Python The Smart Way - Vijos](https://vijos.org/d/datawhale_p2s/)
 - 大作业书籍（**并不要求购买！** 只是说明是哪本书）：[Make Your Own Neural Network by Tariq Rashid  - Amazon](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G/)
-
-## 教学团队工作文档
-
-- [课程主页](https://anine09.github.io/learn-python-the-smart-way-v2/)
-- [课程大纲](https://datawhale.feishu.cn/docx/OsiadroI8oM3Lqx3Sw8cjaO5nRd)
-- [课程分工](https://datawhale.feishu.cn/docx/RD3hdyyLQo570dxG6fvcQClcn2u)
-- [作业验证](https://datawhale.feishu.cn/docx/PViMdNXPBo8zgDxZSDqcM6Qynof)
-- [在线测评](https://vijos.org/d/datawhale_p2s/join)
 
 # 参与贡献
 

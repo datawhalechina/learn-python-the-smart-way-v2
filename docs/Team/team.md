@@ -77,21 +77,3 @@
 
 :fontawesome-solid-graduation-cap: *武汉纺织大学，21 级材料化工研究生在读*
 </div>
-
-<div align="center">
-<img style="height: 100px; border-radius: 50%" src="../../images/team/xing_liu.jpg">
-</div>
-<div align="center" markdown>
-<big>刘兴</big>
-
-:fontawesome-solid-graduation-cap: *西北工业大学，22 级计算机科学与技术研究生在读*
-</div>
-
-<div align="center">
-<img style="height: 100px; border-radius: 50%" src="../../images/team/jiale_wang.jpg">
-</div>
-<div align="center" markdown>
-<big>王佳乐</big>
-
-:fontawesome-solid-graduation-cap: *哈尔滨工程大学*
-</div>
