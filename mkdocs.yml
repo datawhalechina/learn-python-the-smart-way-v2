@@ -2,7 +2,7 @@
 site_name: 聪明办法学 Python 第二版
 site_description: 聪明方法学Python，简明且系统的 Python 入门教程第二版。
 site_author: P2S Team
-site_url: https://anine09.github.io/learn-python-the-smart-way-v2/
+site_url: https://datawhalechina.github.io/learn-python-the-smart-way-v2/
 strict: false
 
 # Repository
@@ -29,7 +29,9 @@ nav:
                 - Chap 3 变量与函数: Schedule/schedule_detail/chap3.md
     - 学习目标: Aims/aims.md
     - 授课形式: Method/method.md
-    - 答疑交流: Question/question.md
+    - 答疑交流: 
+        - 如何提问: Question/question.md
+        - Office Hours 时间表: Question/office_hours_schedule.md
     - 课程资源: Reference/reference.md
     - 参与贡献:
           - 如何贡献: Contribute/contribute.md
