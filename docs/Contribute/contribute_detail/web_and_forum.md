@@ -9,8 +9,6 @@
 
 我们的[课程主页][homepage]托管在 Github Page 上，目前已经做到了自动部署，配置文件是 `.github\workflows\ci.yml`，一般情况下**无需更改 `ci.yml`**。
 
-目前仓库还是归属在 [@anine09](https://github.com/anine09)，在整个项目初步完善后会移交至 [@Datawhale](https://github.com/datawhalechina)。
-
 网站使用的框架是 [MkDocs](https://www.mkdocs.org/)，使用了 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 主题。
 
 你可以使用如下命令来安装 `mkdocs-material`（这同时会自动安装 MkDocs）：
@@ -50,30 +48,29 @@ By the way，如果需要输入 emoji 和 icon，请参阅：[Icons, Emojis](htt
 
 ## 发布论坛帖子
 
-当新的教学内容发布后，需要在 Datawhale 论坛的相关 Tag 下发布课程讨论的帖子，例如：[[P2S] 课程讨论 - Chap 1 启航 Getting Started](http://forum.datawhale.club/t/topic/4435)。
+当新的教学内容发布后，需要在 Github 讨论区的相关分区下发布课程讨论的帖子，例如：[[P2S] 课程讨论 - Chap 1 启航 Getting Started](http://forum.datawhale.club/t/topic/4435)。
 
 帖子发布后请关注它，以便及时收到反馈，并更新[课程公告][course_announcement]、[项目仓库结构][repo_tree]和[网站页面结构][website_tree]等内容。
 
 !!! note "Markdown 链接规范"
     如果需要在 Markdown 中使用链接，请遵循以下规范：
 
-    - 外部链接直接使用 `[链接显示名](链接地址)` 语法。
+    - 外部链接直接使用`[链接显示名](链接地址)` 语法。
     - 与本项目相关的链接，如其他 md 文件、项目网址等，需要使用 `[链接显示名][链接标签]` 语法，将引用内容放置文件末尾，且保证 `链接标签` 命名是有意义的。语法参考：[Markdown 链接语法](https://markdown.com.cn/basic-syntax/links.html#%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E9%93%BE%E6%8E%A5)。
     - 所有图片内容保存在  `docs/images` 的相关文件夹下，并保证命名是有意义的，使用 `![][*数字标签*]`，同样将引用内容放置文件末尾，可以使用 `<figcaption>` 标签[添加图片描述](https://squidfunk.github.io/mkdocs-material/reference/images/#image-captions)，这不是强制选项。
 
-    <figure markdown>
+    `<figure markdown>`
     ![][1]
-    <figcaption>参考示例</figcaption>
-    </figure>
+    `<figcaption>`参考示例`</figcaption>`
+    `</figure>`
 
 **我们需要新的发帖模板，请指定相关可行方案。**
-
 
 !!! info inline end "联系教学团队"
     如果你对这部分内容有任何问题，请联系教学团队寻求帮助。
 
     [联系教学团队 :fontawesome-solid-envelope:][mail_to_team]{ .md-button }
-    
+
 [mail_to_team]: ../../Team/team.md
 [homepage]: https://anine09.github.io/learn-python-the-smart-way-v2/
 [website_tree]: ../repo_tree.md#_3
