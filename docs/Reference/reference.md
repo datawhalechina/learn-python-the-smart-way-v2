@@ -1,6 +1,7 @@
 # 课程资源
 
-- 课程主页：https://datawhalechina.github.io/learn-python-the-smart-way-v2
+- 课程主页：[https://datawhalechina.github.io/learn-python-the-smart-way-v2](https://datawhalechina.github.io/learn-python-the-smart-way-v2)
+- 课程论坛：[https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions%E2%80%B8)
 - 参考课程：[CMU 15-112 Fundamentals of Programming](http://www.cs.cmu.edu/~112/index.html)
   - 我们同时适当参考了：[CMU 15-110 Principles of Computing](https://www.cs.cmu.edu/~15110/)
   - 下一步准备参考：[MIT 18.S191 Introduction to Computational Thinking](https://computationalthinking.mit.edu/)
