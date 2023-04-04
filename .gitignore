@@ -1,2 +1,3 @@
 test/
 .github/workflows/ci.yml
+slides/.ipynb_checkpoints/
