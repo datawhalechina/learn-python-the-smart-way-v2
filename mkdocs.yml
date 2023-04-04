@@ -81,7 +81,7 @@ plugins:
     - search
     - tags #标签
     - glightbox
-
+    - mkdocs-jupyter
 markdown_extensions:
     - abbr
     - pymdownx.arithmatex: # MathJax 支持
