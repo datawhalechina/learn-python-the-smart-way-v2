@@ -6,13 +6,11 @@ Datawhale 以“ for the learner，和学习者一起成长”为愿景，鼓励
 
 官网地址：[Datawhale](https://www.datawhale.club/#/)
 
-关注我们：
----
 
 <div align="center">
 <h1>关注 Datawhale，和学习者一起成长！</h1>
+<img src="https://datawhalechina.github.io/learn-python-the-smart-way-v2/images/datawhale_wechat_qrcode.jpeg">
 </div>
-![img](https://datawhalechina.github.io/learn-python-the-smart-way-v2/images/datawhale_wechat_qrcode.jpeg#pic_center)
 
 
 
