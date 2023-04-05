@@ -1,0 +1,39 @@
+name: 🐞 课程内容错误 / Bugs
+description: 在此报告课程中发现的任何错误，以便教学团队及时勘误。
+title: "格式：'章节名(Chap 3 | Talks 1): Bugs 概要标题'"
+assignees: 
+- anine09
+labels: "课程内容错误"
+body:
+- type: markdown
+  attributes:
+    value: |
+      👏感谢你为 P2S 项目报告错误做出的贡献，为了便于我们了解你的问题，请填写以下信息~
+- type: textarea
+  id: number
+  attributes:
+    label: "章节编号"
+    description: "请填写错误出现的章节号(Chap X | Talks X)"
+  validations:
+    required: true
+- type: textarea
+  id: location
+  attributes:
+    label: "具体内容"
+    description: "请粘贴/描述/贴图错误的具体内容位置，方便我们排查~"
+  validations:
+    required: true
+- type: textarea
+  id: reason
+  attributes:
+    label: "错误描述"
+    description: "请描述一下这个错误的出错原因~"
+  validations:
+    required: true
+- type: textarea
+  id: suggestion
+  attributes:
+    label: "改进建议"
+    description: "请说明改进建议方案，感谢你为 P2S 项目做出的贡献~"
+  validations:
+    required: false

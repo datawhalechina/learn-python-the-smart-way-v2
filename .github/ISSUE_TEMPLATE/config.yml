@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 参与讨论
+    url: https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions
+    about: issues 暂时只接收课程内容问题反馈（内容错误、改进提案等），在课程学习过程中遇到的其他任何问题，欢迎移步到 Datawhale 聪明办法学 Python 社区的讨论。
