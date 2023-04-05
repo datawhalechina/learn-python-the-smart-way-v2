@@ -6,7 +6,12 @@ Datawhale 以“ for the learner，和学习者一起成长”为愿景，鼓励
 
 官网地址：[Datawhale](https://www.datawhale.club/#/)
 
-关注我们：
 
-<img src="https://raw.githubusercontent.com/datawhalechina/easy-rl/master/docs/res/qrcode.jpeg" alt="Datawhale是一个专注AI领域的开源组织，以“for the learner，和学习者一起成长”为愿景，构建对学习者最有价值的开源学习社区。关注我们，一起学习成长。" style="zoom:50%;" />
+<div align="center">
+<h1>关注 Datawhale，和学习者一起成长！</h1>
+<img src="https://datawhalechina.github.io/learn-python-the-smart-way-v2/images/datawhale_wechat_qrcode.jpeg">
+</div>
+
+
+
 
