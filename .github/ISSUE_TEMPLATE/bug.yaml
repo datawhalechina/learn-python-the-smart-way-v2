@@ -3,7 +3,7 @@ description: 在此报告课程中发现的任何错误，以便教学团队及�
 title: "格式：'章节名(Chap 3 | Talks 1): Bugs 概要标题'"
 assignees: 
 - anine09
-labels: "课程内容错误"
+labels: "反馈问题"
 body:
 - type: markdown
   attributes:
