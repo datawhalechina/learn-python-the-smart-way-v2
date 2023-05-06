@@ -21,12 +21,12 @@
     - Chapter 6 字符串 Strings
 - 进阶 (Chap7 - Chap12 制作中，待定)：
 <details>
-    - Chapter 7 Lists and Tuples
-    - Chapter 8 Sets
-    - Chapter 9 Dictionaries
-    - Chapter 10 Object Oriented Programming Part 1
-    - Chapter 11 Object Oriented Programming Part 2
-    - ...
+- Chapter 7 Lists and Tuples
+- Chapter 8 Sets
+- Chapter 9 Dictionaries
+- Chapter 10 Object Oriented Programming Part 1
+- Chapter 11 Object Oriented Programming Part 2
+- ...
 </details>
 
 ## 教学团队
