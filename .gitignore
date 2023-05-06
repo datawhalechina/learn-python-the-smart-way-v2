@@ -4,3 +4,4 @@ slides/The-Zen-of-Python.txt
 slides/__pycache__/
 slides/chap6_demo.txt
 slides/ZenOfPy.py
+test/
