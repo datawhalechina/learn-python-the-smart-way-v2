@@ -24,25 +24,14 @@
 </div>
 
 <div align="center">
-<img style="height: 100px; border-radius: 50%" src="../../images/team/yaocheng_wang.jpg">
+<img style="height: 100px; border-radius: 50%" src="../../images/team/hui_xu.jpg">
 </div>
 <div align="center" markdown>
-<big>王耀晨</big>
+<big>徐辉</big>
 
-:fontawesome-solid-envelope: **<wbyz777@foxmail.com>**
+:fontawesome-solid-envelope: **<yoga326@163.com>**
 
-:fontawesome-solid-graduation-cap: *南京邮电大学，21 级计算机科学与技术本科在读*
-</div>
-
-<div align="center">
-<img style="height: 100px; border-radius: 50%" src="../../images/team/jiaqi_wang.jpg">
-</div>
-<div align="center" markdown>
-<big>王家齐</big>
-
-:fontawesome-solid-envelope: **<wangjiaqi2651@link.tyut.edu.cn>**
-
-:fontawesome-solid-graduation-cap: *太原理工大学，21 级数据科学与大数据技术本科在读*
+:fontawesome-solid-graduation-cap: *武汉纺织大学，21 级材料化工研究生在读*
 </div>
 
 <div align="center">
@@ -57,6 +46,17 @@
 </div>
 
 <div align="center">
+<img style="height: 100px; border-radius: 50%" src="../../images/team/yaocheng_wang.jpg">
+</div>
+<div align="center" markdown>
+<big>王耀晨</big>
+
+:fontawesome-solid-envelope: **<wbyz777@foxmail.com>**
+
+:fontawesome-solid-graduation-cap: *南京邮电大学，21 级计算机科学与技术本科在读*
+</div>
+
+<div align="center">
 <img style="height: 100px; border-radius: 50%" src="../../images/team/rongyang_jie.jpg">
 </div>
 <div align="center" markdown>
@@ -67,13 +67,23 @@
 :fontawesome-solid-graduation-cap: *哈尔滨工业大学（威海），20 级计算机科学与技术本科在读*
 </div>
 
+
 <div align="center">
-<img style="height: 100px; border-radius: 50%" src="../../images/team/hui_xu.jpg">
+<img style="height: 100px; border-radius: 50%" src="../../images/team/jiale_wang.jpg">
 </div>
 <div align="center" markdown>
-<big>徐辉</big>
+<big>王佳乐</big>
 
-:fontawesome-solid-envelope: **<yoga326@163.com>**
+:fontawesome-solid-graduation-cap: *哈尔滨工程大学*
+</div>
 
-:fontawesome-solid-graduation-cap: *武汉纺织大学，21 级材料化工研究生在读*
+<div align="center">
+<img style="height: 100px; border-radius: 50%" src="../../images/team/jiaqi_wang.jpg">
+</div>
+<div align="center" markdown>
+<big>王家齐</big>
+
+:fontawesome-solid-envelope: **<wangjiaqi2651@link.tyut.edu.cn>**
+
+:fontawesome-solid-graduation-cap: *太原理工大学，21 级数据科学与大数据技术本科在读*
 </div>

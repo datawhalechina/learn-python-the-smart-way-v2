@@ -31,7 +31,7 @@
 </details>
 
 ## 教学团队
-教学团队成员来自 Datawhale 高校联盟，详见：[教学团队](https://datawhalechina.github.io/learn-python-the-smart-way-v2/Team/team/)
+教学团队成员来自 Datawhale 高校联盟，详见：[课程背景](https://datawhalechina.github.io/learn-python-the-smart-way-v2/Index/background/)、[教学团队](https://datawhalechina.github.io/learn-python-the-smart-way-v2/Team/team/)
 
 我们会依据贡献程度与活跃程度动态更新列表，并维护一份全体贡献者列表，如果你也想加入我们，请阅读[参与贡献](https://datawhalechina.github.io/learn-python-the-smart-way-v2/Contribute/contribute/)
 
