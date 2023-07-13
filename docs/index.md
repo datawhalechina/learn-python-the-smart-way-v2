@@ -2,11 +2,11 @@
 
 !!! tip "内测公告"
 
-    聪明办法学 Python 第二版（P2S）正式开始小范围内测 🎉🎉
+    聪明办法学 Python 第二版（P2S）正式开始第1期组队学习 [点击报名](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions/10)🎉🎉
 
-    欢迎同学们广泛提供建议与意见，以帮助我们改进课程  😀
+    欢迎同学们广泛提供建议与意见，以帮助我们改进课程 [点击反馈](https://github.com/datawhalechina/learn-python-the-smart-way-v2/issues/new/choose)  😀
 
-    更多公告详情请参阅：[课程公告](./Index/announcements.md)
+    更多公告详情请参阅：[课程公告](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions/categories/%E8%AF%BE%E7%A8%8B%E5%85%AC%E5%91%8A)
 
 **聪明办法学 Python 第二版**是 Datawhale 基于[第一版](https://github.com/datawhalechina/learn-python-the-smart-way)教程的一次大幅更新。我们尝试在教程中融入更多**计算机科学**与**人工智能**相关的内容，制作“面向人工智能的 Python 专项教程”。
 

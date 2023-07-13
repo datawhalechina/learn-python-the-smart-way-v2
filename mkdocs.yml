@@ -17,7 +17,6 @@ nav:
     - 简介:
           - 课程简介: index.md
           - 课程背景: Index/background.md
-          - 课程公告: Index/announcements.md
     - 教学团队: 
         - 团队成员: Team/team.md
     - 课程进度:
@@ -44,7 +43,7 @@ nav:
                 - 文字教程、反馈收集: Contribute/contribute_detail/textbook_and_feedback.md
                 - 进度跟进、答疑讨论: Contribute/contribute_detail/progress_and_discuss.md
                 - 课程大纲、课程内容: Contribute/contribute_detail/outline_and_content.md
-    - 关于 Datawhale: About/datawhale.md
+    - 关于 Datawhale: https://datawhale.club/
 
 theme:
     name: material

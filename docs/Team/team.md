@@ -7,6 +7,8 @@
 <div align="center" markdown>
 <big>骆秀韬</big>
 
+:fontawesome-brands-github: **[anine09](https://github.com/anine09)**
+
 :fontawesome-solid-envelope: **<epsilon_luoo@outlook.com>**
 
 :fontawesome-solid-graduation-cap: *湖北第二师范学院，21 级材料物理本科在读*
@@ -17,6 +19,8 @@
 </div>
 <div align="center" markdown>
 <big>张凯旋</big>
+
+:fontawesome-brands-github: **[zarjun](https://github.com/zarjun)**
 
 :fontawesome-solid-envelope: **<zhangkx12022@shanghaitech.edu.cn>**
 
@@ -51,6 +55,8 @@
 <div align="center" markdown>
 <big>王耀晨</big>
 
+:fontawesome-brands-github: **[WBYZ777](https://github.com/WBYZ777)**
+
 :fontawesome-solid-envelope: **<wbyz777@foxmail.com>**
 
 :fontawesome-solid-graduation-cap: *南京邮电大学，21 级计算机科学与技术本科在读*
@@ -60,6 +66,7 @@
 <img style="height: 100px; border-radius: 50%" src="../../images/team/rongyang_jie.jpg">
 </div>
 <div align="center" markdown>
+
 <big>揭熔阳</big>
 
 :fontawesome-solid-envelope: **<starlight09012022@163.com>**
