@@ -1,6 +1,8 @@
 # **欢迎来到聪明办法学 Python 第二版**
 
-!!! tip "内测公告"
+[课程论坛](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions) | [直播录像](https://space.bilibili.com/28089802) | [答疑交流](https://datawhalechina.github.io/learn-python-the-smart-way-v2/Question/question/) | [高校联盟](https://datawhalechina.github.io/ai-club/)
+
+!!! tip "组队学习公告"
 
     聪明办法学 Python 第二版（P2S）正式开始第1期组队学习 [点击报名](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions/10)🎉🎉
 
@@ -14,6 +16,7 @@
 
 1. ***Learn Python The Smart Way V2***，“聪明办法学 Python 第二版”的缩写。
 2. ***Prepare To Be Smart***， 我们希望同学们学习这个教程后能**学习到聪明的办法，从容的迈入人工智能的后续学习**。
+
 
 ---
 
