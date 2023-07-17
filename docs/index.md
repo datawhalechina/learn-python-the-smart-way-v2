@@ -1,6 +1,6 @@
 # **欢迎来到聪明办法学 Python 第二版**
 
-[课程论坛](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions) | [直播录像](https://space.bilibili.com/28089802) | [答疑交流](https://datawhalechina.github.io/learn-python-the-smart-way-v2/Question/question/) | [高校联盟](https://datawhalechina.github.io/ai-club/)
+[课程论坛](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions) | [直播录像](https://space.bilibili.com/28089802) | [答疑交流](https://datawhalechina.github.io/learn-python-the-smart-way-v2/Question/question/) | [课后练习](https://hydro.ac/d/datawhale_p2s/) | [高校联盟](https://datawhalechina.github.io/ai-club/)
 
 !!! tip "组队学习公告"
 
