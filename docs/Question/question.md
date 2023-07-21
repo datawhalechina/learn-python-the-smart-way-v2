@@ -9,7 +9,7 @@
 !!! danger "特别重要"
     **在提问前我们强烈推荐同学们阅读下列材料！**
 
-    - [如何科学地提问](https://ysyx.oscc.cc/docs/prestudy/0.1.html)
+    -[如何科学地提问](https://ysyx.oscc.cc/docs/2306/prestudy/0.1.html)
     - [ 提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
     - [“别用错误的方法提问”](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways) **（至少需要阅读此文档！）**
 
@@ -22,7 +22,7 @@
 
 !!! info "我们不推荐使用微信提问"
     并不是每次组队学习都会有微信群，教学团队会视情况决定是否使用微信群运营。
-    
+
     由于我们的课程会大量涉及代码，微信对大段文字、代码的支持不太友好，传输文件也不方便，所以我们推荐同学们**直接在论坛发帖提问并 @[教学团队成员][team_list]**，或者给助教发邮件。方便助教处理同学们遇到的问题，但是我们**并不反对在微信群提问**。
 
 ## 提问格式
@@ -35,7 +35,7 @@
 
 ## Office Hours
 
-Office Hours 代表助教们在教学中的主要办公时间，我们**推荐同学们在对应时段提问**，以方便助教集中处理课程问题，但是我们**并不对提问时间有所限制。** 
+Office Hours 代表助教们在教学中的主要办公时间，我们**推荐同学们在对应时段提问**，以方便助教集中处理课程问题，但是我们**并不对提问时间有所限制。**
 
 !!! info "如何用好 Office Hours"
     在使用 Office Hours 之前，我们建议大家阅读 [《What are office hours?》](https://lsc.cornell.edu/wp-content/uploads/2015/10/What-Are-Office-Hours.pdf)。
@@ -43,5 +43,4 @@ Office Hours 代表助教们在教学中的主要办公时间，我们**推荐�
 另外，我们的助教 Office Hours 时间安排请参见 [Office Hours 时间表][office_hours_schedule]。
 
 [office_hours_schedule]: ./office_hours_schedule.md
-
 [team_list]: ../Team/team.md
