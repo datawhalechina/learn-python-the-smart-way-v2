@@ -17,7 +17,7 @@
 
 同学们可以通过以下渠道提问：
 
-- 论坛相关帖子
+- 论坛的[提问答疑专区](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions/categories/%E6%8F%90%E9%97%AE%E7%AD%94%E7%96%91)
 - 各助教邮箱
 
 !!! info "我们不推荐使用微信提问"
