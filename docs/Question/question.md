@@ -9,7 +9,7 @@
 !!! danger "特别重要"
     **在提问前我们强烈推荐同学们阅读下列材料！**
 
-    -[如何科学地提问](https://ysyx.oscc.cc/docs/2306/prestudy/0.1.html)
+    - [如何科学地提问](https://ysyx.oscc.cc/docs/2306/prestudy/0.1.html)
     - [ 提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
     - [“别用错误的方法提问”](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways) **（至少需要阅读此文档！）**
 
