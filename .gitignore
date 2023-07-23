@@ -1,5 +1,5 @@
 .github/workflows/ci.yml
-slides/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 slides/The-Zen-of-Python.txt
 **/__pycache__/
 slides/chap6_demo.txt
