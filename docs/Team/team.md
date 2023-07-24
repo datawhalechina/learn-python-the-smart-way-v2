@@ -83,7 +83,7 @@
 <div align="center" markdown>
 <big>王佳乐</big>
   
-:fontawesome-solid-envelope: **<karworth@163.com>**
+:fontawesome-solid-envelope: **<kalworth@163.com>**
 
 :fontawesome-solid-graduation-cap: *哈尔滨工程大学 , 21 级人工智能本科在读*
 </div>
