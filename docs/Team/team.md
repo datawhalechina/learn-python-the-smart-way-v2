@@ -33,6 +33,8 @@
 <div align="center" markdown>
 <big>徐辉</big>
 
+:fontawesome-brands-github: **[Naomi-yoga](https://github.com/Naomi-yoga)**
+
 :fontawesome-solid-envelope: **<yoga326@163.com>**
 
 :fontawesome-solid-graduation-cap: *武汉纺织大学，21 级材料化工研究生在读*
@@ -43,6 +45,8 @@
 </div>
 <div align="center" markdown>
 <big>潘笃驿</big>
+
+:fontawesome-brands-github: **[limafang](https://github.com/limafang)**
 
 :fontawesome-solid-envelope: **<panduyi_azula@foxmail.com>**
 
@@ -69,6 +73,8 @@
 
 <big>揭熔阳</big>
 
+:fontawesome-brands-github: **[xin007-kong](https://github.com/xin007-kong)**
+
 :fontawesome-solid-envelope: **<starlight09012022@163.com>**
 
 :fontawesome-solid-graduation-cap: *哈尔滨工业大学（威海），20 级计算机科学与技术本科在读*
@@ -81,6 +87,8 @@
 <div align="center" markdown>
 <big>王佳乐</big>
 
+:fontawesome-brands-github: **[kalworth](https://github.com/kalworth)**
+
 :fontawesome-solid-graduation-cap: *哈尔滨工程大学*
 </div>
 
@@ -89,6 +97,8 @@
 </div>
 <div align="center" markdown>
 <big>王家齐</big>
+
+:fontawesome-brands-github: **[MayyyyyJessie](https://github.com/MayyyyyJessie)**
 
 :fontawesome-solid-envelope: **<wangjiaqi2651@link.tyut.edu.cn>**
 

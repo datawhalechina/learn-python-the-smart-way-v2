@@ -19,11 +19,8 @@ nav:
           - 课程背景: Index/background.md
     - 课程进度:
           - 课程进度列表: Schedule/schedule.md
-          - 进度详情:
-                - Chap 0 安装: Schedule/schedule_detail/chap0.md
-                - Chap 1 启航: Schedule/schedule_detail/chap1.md
-                - Chap 2 数据类型和操作: Schedule/schedule_detail/chap2.md
-                - Chap 3 变量与函数: Schedule/schedule_detail/chap3.md
+        #   - 进度详情:
+                # - Chap 0 安装: Schedule/schedule_detail/chap0_page.md
     - 学习目标: Aims/aims.md
     - 授课形式: Method/method.md
     - 答疑交流: 

@@ -2,9 +2,9 @@
 
 主要介绍了如何在本地安装 Miniconda 来配置 Python 环境。
 
-## 课堂 Slides:
-        
-<https://github.com/datawhalechina/learn-python-the-smart-way-v2/blob/main/slides/chapter_0-Installation.ipynb>
+## 快速导航
+
+[课堂 Slides](https://github.com/datawhalechina/learn-python-the-smart-way-v2/blob/main/slides/chapter_0-Installation.ipynb)
 
 ## 直播回放
 
