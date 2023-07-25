@@ -86,12 +86,12 @@
 </div>
 <div align="center" markdown>
 <big>王佳乐</big>
-  
-:fontawesome-solid-envelope: **<kalworth@163.com>**
 
 :fontawesome-brands-github: **[kalworth](https://github.com/kalworth)**
 
-:fontawesome-solid-graduation-cap: *哈尔滨工程大学*
+:fontawesome-solid-envelope: **<kalworth@163.com>**
+
+:fontawesome-solid-graduation-cap: *哈尔滨工程大学 , 21 级人工智能本科在读*
 </div>
 
 <div align="center">
