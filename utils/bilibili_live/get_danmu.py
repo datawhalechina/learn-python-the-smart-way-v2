@@ -5,7 +5,7 @@ import blivedm
 
 # 直播间ID的取值看直播间URL
 TEST_ROOM_IDS = [
-    # 21482458, # Datawhale
+    21482458, # Datawhale
     25933362, # Epsilon Luoo
 ]
 
