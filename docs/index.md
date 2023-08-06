@@ -17,6 +17,13 @@
 1. ***Learn Python The Smart Way V2***，“聪明办法学 Python 第二版”的缩写。
 2. ***Prepare To Be Smart***， 我们希望同学们学习这个教程后能**学习到聪明的办法，从容的迈入人工智能的后续学习**。
 
+!!! note "Gitee 镜像仓库"
+    如果无法使用 Github，请访问镜像仓库，如果其内容过时，请[提醒教学团队][Team]更新。
+
+    **镜像仓库仅用于同步 Github 内容，不用于处理课程相关内容（如问答，反馈等）！**
+
+    [![Epsilon Luoo/本仓库仅同步请访问Github_learn-python-the-smart-way-v2](https://gitee.com/anine09/learn-python-the-smart-way-v2/widgets/widget_card.svg?colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae)](https://gitee.com/anine09/learn-python-the-smart-way-v2)
+
 ---
 
 <div align="center">
@@ -27,3 +34,6 @@
 <div align="center">
 <a href="https://mp.weixin.qq.com/s/dndXMp52neU6J5lBjlvvQw" target="_blank"><img style="height: 300px; " src="./images/datawhale_wechat_qrcode.jpeg"></a>
 </div>
+
+
+[Team]: ./Team/team.md
