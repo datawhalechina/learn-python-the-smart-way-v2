@@ -41,7 +41,7 @@
 
 我们会依据贡献程度与活跃程度动态更新列表，并维护一份全体贡献者列表，如果你也想加入我们，请阅读[参与贡献](https://datawhalechina.github.io/learn-python-the-smart-way-v2/Contribute/contribute/)
 
-# 镜像仓库
+## 镜像仓库
 
 [![Epsilon Luoo/本仓库仅同步请访问Github_learn-python-the-smart-way-v2](https://gitee.com/anine09/learn-python-the-smart-way-v2/widgets/widget_card.svg?colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae)](https://gitee.com/anine09/learn-python-the-smart-way-v2)
 
@@ -51,4 +51,4 @@
 
 ## LICENSE
 
-`<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" />``</a><br />`本作品采用`<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">`知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议`</a>`进行许可。
+`<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" />``</a><br />`本作品采用 `<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">`知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 `</a>`进行许可。
