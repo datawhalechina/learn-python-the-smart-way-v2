@@ -1,6 +1,6 @@
 # 聪明办法学 Python 第二版
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/datawhalechina/learn-python-the-smart-way-v2/HEAD?labpath=slides)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://nbviewer.org/github/datawhalechina/learn-python-the-smart-way-v2/tree/main/slides/)
 
 ## 课程简介
 
