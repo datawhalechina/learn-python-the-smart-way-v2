@@ -4,7 +4,7 @@
 
 |                                         笔记作者                                         |                                                                                              笔记链接                                                                                              |
 | :---------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img style="height: 60px; border-radius: 50%" src="../../images/notes/moriko森林子.jpg">| **<p>moriko森林子</p>** [Notion :fontawesome-solid-share-from-square:](ttps://pickle-diamond-3e3.notion.site/Python-4b8be1ee494449938e9d9f8bf6ffce27) |
+| <img style="height: 60px; border-radius: 50%" src="../../images/notes/moriko森林子.jpg">| **<p>moriko森林子</p>** [Notion :fontawesome-solid-share-from-square:](https://pickle-diamond-3e3.notion.site/Python-4b8be1ee494449938e9d9f8bf6ffce27) |
 
 ## Chapter 0 安装
 
