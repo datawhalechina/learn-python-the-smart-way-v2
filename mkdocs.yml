@@ -25,6 +25,7 @@ nav:
         - 如何提问: Question/question.md
         - Office Hours 时间表: Question/office_hours_schedule.md
     - 课程资源: Reference/reference.md
+    - 优秀笔记: Notes/note.md
     - 参与贡献:
           - 如何贡献: Contribute/contribute.md
           - 项目结构: Contribute/repo_tree.md
