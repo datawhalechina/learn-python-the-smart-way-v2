@@ -101,6 +101,11 @@ markdown_extensions:
           emoji_generator: !!python/name:materialx.emoji.to_svg
     - admonition
     - pymdownx.details
+    - pymdownx.pathconverter:
+        base_path: ""
+        relative_path: "" # default ''
+        # absolute: true
+        tags: 'a script img link object embed'
 
 extra_javascript:
     - javascripts/mathjax.js
