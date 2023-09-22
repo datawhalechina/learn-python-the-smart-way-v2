@@ -22,7 +22,7 @@
 
 :fontawesome-brands-github: **[zarjun](https://github.com/zarjun)**
 
-:fontawesome-solid-envelope: **<zhangkx12022@shanghaitech.edu.cn>**
+:fontawesome-solid-envelope: **<zkx_2021@163.com>**
 
 :fontawesome-solid-graduation-cap: *上海科技大学，22 级电子科学与技术研究生在读*
 </div>
