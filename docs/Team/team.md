@@ -1,6 +1,19 @@
 # 教学团队
 
 <div align="center">
+<img style="height: 100px" src="../../images/datawhale_logo.png">
+</div>
+<div align="center" markdown>
+<big>公共邮箱</big>
+
+:fontawesome-solid-envelope: **<learn.python.the.smart.way@gmail.com>**
+
+:fontawesome-solid-info: 所有助教都会收到公共邮箱的消息，请 **优先选择这种方式联系教学团队**
+</div>
+
+<hr>
+
+<div align="center">
 <!-- <img style="height: 100px; border-radius: 50%" src="https://sdn.geekzu.org/avatar/5d20b33b9f29623fd4772aca3599b6df"> -->
 <img style="height: 100px; border-radius: 50%" src="../../images/team/xiutao_luo.jpg">
 </div>
