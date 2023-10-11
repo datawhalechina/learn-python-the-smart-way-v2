@@ -20,7 +20,7 @@ nav:
     - 课程进度:
           - 课程进度列表: Schedule/schedule.md
     - 学习目标: Aims/aims.md
-    - 授课形式: Method/method.md
+    # - 授课形式: Method/method.md
     - 答疑交流: 
         - 如何提问: Question/question.md
         - Office Hours 时间表: Question/office_hours_schedule.md
