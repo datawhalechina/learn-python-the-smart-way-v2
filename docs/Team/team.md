@@ -8,8 +8,11 @@
 
 :fontawesome-solid-envelope: **<learn.python.the.smart.way@gmail.com>**
 
-:fontawesome-solid-info: 所有助教都会收到公共邮箱的消息，请 **优先选择这种方式联系教学团队**
+:fontawesome-solid-circle-info: 所有助教都会收到公共邮箱的消息，请 **优先选择这种方式联系教学团队**
 </div>
+
+!!! warning "不要使用 QQ 邮箱"
+    我们发现在回复同学们邮件时， **QQ 邮箱服务器会直接拒收我们的回复邮件**，导致我们无法与同学们沟通，所以 **请不要使用 QQ 邮箱给公共邮箱发邮件！**
 
 <hr>
 
