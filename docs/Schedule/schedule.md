@@ -1,6 +1,5 @@
 # 课程进度列表
 
-
 | 教程大纲               |                                                  负责助教                                                  |                                            开课时间                                            |                                 视频链接                                 |                                                                                                                                   课件链接                                                                                                                                   |                                              作业地址                                              |
 | ---------------------- | :--------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
 | 课程安排与Python介绍   | [:fontawesome-solid-user: 全体助教](https://datawhalechina.github.io/learn-python-the-smart-way-v2/Team/team) | [:fontawesome-solid-calendar-days: 07/26](https://wannianrili.bmcx.com/2023-07-26__wannianrili/) | [:fontawesome-brands-bilibili:](https://www.bilibili.com/video/BV1x44y1w76d) |                                                                                                       [:fontawesome-solid-file-pdf:](../pdf/聪明办法学Python课程安排.pdf)                                                                                                       |                                  :fontawesome-solid-circle-xmark:                                  |
@@ -14,12 +13,11 @@
 
 !!! info "作业系统加入方式"
     1. 注册 [Hydro.ac](https://hydro.ac/register)
-    2. 使用链接加入作业系统 <https://hydro.ac/d/datawhale_p2s/domain/join>
-    3. 点击加入以后才有权限，加入以后点击上方菜单栏-作业，找到对应的章节任务（下方有`作业地址`直达链接）。
+    2. 使用链接加入作业系统 [https://hydro.ac/d/datawhale_p2s/domain/join](https://hydro.ac/d/datawhale_p2s/domain/join)
+    3. 点击加入以后才有权限，加入以后点击上方菜单栏-作业，找到对应的章节任务（下方有 `作业地址`直达链接）。
     4. 在右上角有 `认领作业` 选项，点击后即可开始作答
 
     具体操作细节可参考[这个视频](https://www.bilibili.com/video/BV1x44y1w76d/?share_source=copy_web&vd_source=028de643cc39a11666d3a10bca7af7d9&t=2118)
-
 
 # Talks 分享列表
 
@@ -30,6 +28,6 @@
 | ***Talk 1 代码风格（重点课程）*** | [:fontawesome-solid-user:][P2S_Team][张凯旋](https://github.com/zarjun) & [徐辉](https://github.com/Naomi-yoga) | [:fontawesome-solid-calendar-days: 08/25](https://wannianrili.bmcx.com/2023-08-25__wannianrili/) | [:fontawesome-brands-bilibili:](https://www.bilibili.com/video/BV1Nm4y1T7vi) |                                                                 [:fontawesome-solid-file-pdf:](../pdf/Talk_1_代码风格.pdf)                                                                 |       [:fontawesome-solid-image:](../images/poster/Talk_1_代码风格海报.png)       |
 | 自动机器学习技术杂谈                      |                        [:fontawesome-solid-user: 骆秀韬](https://github.com/anine09)                        | [:fontawesome-solid-calendar-days: 08/28](https://wannianrili.bmcx.com/2023-08-28__wannianrili/) | [:fontawesome-brands-bilibili:](https://www.bilibili.com/video/BV1qu4y1D7MJ) |                                                               [:fontawesome-solid-file-pdf:](../pdf/自动机器学习技术杂谈.pdf)                                                               |      [:fontawesome-solid-image:](../images/poster/自动机器学习技术杂谈.jpg)      |
 | ***Talk 2 调试（重点课程）***     |                        [:fontawesome-solid-user: 潘笃驿](https://github.com/limafang)                        | [:fontawesome-solid-calendar-days: 09/22](https://wannianrili.bmcx.com/2023-09-22__wannianrili/) | [:fontawesome-brands-bilibili:](https://www.bilibili.com/video/BV1jk4y1c78E) |                                                 [:fontawesome-solid-square-rss:](https://blog.csdn.net/limafang/article/details/133146469)                                                 |                        :fontawesome-solid-circle-xmark:                        |
-
+| AI4Sci赛事Python语法复习                  |                        [:fontawesome-solid-user: 骆秀韬](https://github.com/anine09)                        | [:fontawesome-solid-calendar-days: 11/17](https://wannianrili.bmcx.com/2023-11-17__wannianrili/) |                                                                            |       [:fontawesome-brands-python:](https://nbviewer.org/github/datawhalechina/learn-python-the-smart-way-v2/blob/main/talks/AI4Sci竞赛Python语法复习/AI4Sci竞赛Python语法复习.ipynb)       |    [:fontawesome-solid-image:](../images/poster/AI4Sci竞赛Python语法复习.png)    |
 
 [P2S_Team]: ../Team/team.md
