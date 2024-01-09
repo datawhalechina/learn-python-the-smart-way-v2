@@ -1,10 +1,10 @@
 # **欢迎来到聪明办法学 Python 第二版**
 
-常用链接：[论坛交流](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions) | [直播录像](https://space.bilibili.com/431850986/channel/collectiondetail?sid=1592245) | [课后练习](https://hydro.ac/d/datawhale_p2s/) | [高校联盟](https://datawhalechina.github.io/ai-club/)
+常用链接：[论坛交流](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions) | [直播录像](https://space.bilibili.com/431850986/channel/collectiondetail?sid=1592245) | [课后练习](https://hydro.ac/d/datawhale_p2s/) | [Office Hours](https://cal.com/learn-python-the-smart-way/p2s-office-hours) | [高校联盟](https://datawhalechina.github.io/ai-club/)
 
-!!! tip "组队学习公告"
+!!! tip "最新公告"
 
-    聪明办法学 Python 第二版（P2S）正式开始第1期组队学习[点击报名](https://github.com/datawhalechina/learn-python-the-smart-way-v2/discussions/10?sort=new)🎉🎉
+    聪明办法学 Python 第二版（P2S）正在筹备第 4 期组队学习，敬请期待
 
     欢迎同学们广泛提供建议与意见，以帮助我们改进课程[点击反馈](https://github.com/datawhalechina/learn-python-the-smart-way-v2/issues/new/choose)  😀
 
