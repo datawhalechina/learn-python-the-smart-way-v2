@@ -9,7 +9,7 @@
 !!! danger "特别重要"
     **在提问前我们强烈推荐同学们阅读下列材料！**
 
-    - [如何科学地提问](https://ysyx.oscc.cc/docs/2306/prestudy/0.1.html)
+    -[如何科学地提问](https://ysyx.oscc.cc/docs/2306/prestudy/0.1.html)
     - [ 提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
     - [“别用错误的方法提问”](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways) **（至少需要阅读此文档！）**
 
@@ -40,7 +40,14 @@ Office Hours 代表助教们在教学中的主要办公时间，我们**推荐�
 !!! info "如何用好 Office Hours"
     在使用 Office Hours 之前，我们建议大家阅读 [《What are office hours?》](https://lsc.cornell.edu/wp-content/uploads/2015/10/What-Are-Office-Hours.pdf)。
 
-另外，我们的助教 Office Hours 时间安排请参见 [Office Hours 时间表][office_hours_schedule]。
+可以点击右下角“预约 Office Hours”或者访问[预约网址](https://cal.com/learn-python-the-smart-way/p2s-office-hours)来提出预约申请，网页加载可能会较慢，请耐心等待，如果长时间未收到申请结果，请[联系教学团队](mailto:learn.python.the.smart.way@gmail.com)
 
-[office_hours_schedule]: ./office_hours_schedule.md
-[team_list]: ../Team/team.md
+<!-- Cal floating-popup embed code begins -->
+<script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "p2s-office-hours", {origin:"https://cal.com"});
+
+  Cal.ns["p2s-office-hours"]("floatingButton", {"calLink":"learn-python-the-smart-way/p2s-office-hours","hideButtonIcon":false,"buttonText":"预约 Office Hours"});
+  Cal.ns["p2s-office-hours"]("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
+  </script>
+  <!-- Cal floating-popup embed code ends -->
