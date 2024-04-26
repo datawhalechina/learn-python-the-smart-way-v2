@@ -4,7 +4,7 @@
 
 !!! tip "最新公告"
 
-    聪明办法学 Python 第二版（P2S）正在筹备第 4 期组队学习，敬请期待
+    聪明办法学 Python 第二版正式上线 Mo 平台，后续教学团队会在 Mo 平台制作交互性更强的课程内容，欢迎大家通过对应链接访问：<https://momodel.cn/classroom/class/659fb7610d52022658248509> 🎉🎉🎉
 
     欢迎同学们广泛提供建议与意见，以帮助我们改进课程[点击反馈](https://github.com/datawhalechina/learn-python-the-smart-way-v2/issues/new/choose)  😀
 
