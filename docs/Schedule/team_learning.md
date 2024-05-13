@@ -1,6 +1,6 @@
 # 组队学习规则
 
-<!-- ## 学习者规则
+## 学习者规则
 
 - 无意违反任何规则，在合理范围内都有补救机会，如果有需要请及时联系助教。
 
@@ -37,7 +37,7 @@
     1. 登录 [Hydro](https://hydro.ac)，进入 [P2S 作业域](https://hydro.ac/d/datawhale_p2s/)，点击右上角你的用户昵称。
     ![获取个人链接步骤-1](../images/team_learning/获取个人链接步骤-1.png)
     2. 把浏览器地址栏对应的链接复制提交，链接一定以 `https://hydro.ac/d/datawhale_p2s/user/` 开头。
-    ![获取个人链接步骤-2](../images/team_learning/获取个人链接步骤-2.png) -->
+    ![获取个人链接步骤-2](../images/team_learning/获取个人链接步骤-2.png)
 
 ## 助教规则
 
