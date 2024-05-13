@@ -18,8 +18,9 @@ nav:
           - 课程简介: index.md
           - 课程背景: Index/background.md
     - 课程进度:
-          - 课程进度列表: Schedule/schedule.md
-    - 学习目标: Aims/aims.md
+          - 课程进度列表: Schedule/schedule.md    
+          - 学习目标: Aims/aims.md
+    - 组队学习: Schedule/team_learning.md
     # - 授课形式: Method/method.md
     - 答疑交流: 
         - 如何提问: Question/question.md
