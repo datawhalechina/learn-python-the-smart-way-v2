@@ -122,3 +122,17 @@
 
 :fontawesome-solid-graduation-cap: *太原理工大学，21 级数据科学与大数据技术本科在读*
 </div>
+
+<div align="center">
+<img style="height: 100px; border-radius: 50%" src="../../images/team/cong_wang.jpg">
+</div>
+<div align="center" markdown>
+
+<big>王聪</big>
+
+:fontawesome-brands-github: **[SongWWWWWW](https://github.com/SongWWWWWW)**
+
+:fontawesome-solid-envelope: **<2149367891a@gmail.com>**
+
+:fontawesome-solid-graduation-cap: *哈尔滨工业大学（威海），22 级软件工程本科在读*
+</div>
