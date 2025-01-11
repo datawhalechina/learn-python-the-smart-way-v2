@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
-from .models import *
+__version__ = '1.1.0-dev'
+
 from .handlers import *
-from .client import *
+from .clients import *

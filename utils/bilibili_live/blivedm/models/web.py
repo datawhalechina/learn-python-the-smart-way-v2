@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 import dataclasses
 import json
-import base64
 from typing import *
-
-from . import pb_models
 
 __all__ = (
     'HeartbeatMessage',
@@ -22,8 +19,8 @@ class HeartbeatMessage:
     心跳消息
     """
 
-    popularity: int = None
-    """人气值"""
+    popularity: int = 0
+    """人气值，已废弃"""
 
     @classmethod
     def from_command(cls, data: dict):
@@ -38,85 +35,89 @@ class DanmakuMessage:
     弹幕消息
     """
 
-    mode: int = None
+    mode: int = 0
     """弹幕显示模式（滚动、顶部、底部）"""
-    font_size: int = None
+    font_size: int = 0
     """字体尺寸"""
-    color: int = None
+    color: int = 0
     """颜色"""
-    timestamp: int = None
+    timestamp: int = 0
     """时间戳（毫秒）"""
-    rnd: int = None
+    rnd: int = 0
     """随机数，前端叫作弹幕ID，可能是去重用的"""
-    uid_crc32: str = None
+    uid_crc32: str = ''
     """用户ID文本的CRC32"""
-    msg_type: int = None
+    msg_type: int = 0
     """是否礼物弹幕（节奏风暴）"""
-    bubble: int = None
+    bubble: int = 0
     """右侧评论栏气泡"""
-    dm_type: int = None
+    dm_type: int = 0
     """弹幕类型，0文本，1表情，2语音"""
-    emoticon_options: Union[dict, str] = None
+    emoticon_options: Union[dict, str] = ''
     """表情参数"""
-    voice_config: Union[dict, str] = None
+    voice_config: Union[dict, str] = ''
     """语音参数"""
-    mode_info: dict = None
+    mode_info: dict = dataclasses.field(default_factory=dict)
     """一些附加参数"""
 
-    msg: str = None
+    msg: str = ''
     """弹幕内容"""
 
-    uid: int = None
+    uid: int = 0
     """用户ID"""
-    uname: str = None
+    uname: str = ''
     """用户名"""
-    face: str = None
+    face: str = ''
     """用户头像URL"""
-    admin: int = None
+    admin: int = 0
     """是否房管"""
-    vip: int = None
+    vip: int = 0
     """是否月费老爷"""
-    svip: int = None
+    svip: int = 0
     """是否年费老爷"""
-    urank: int = None
+    urank: int = 0
     """用户身份，用来判断是否正式会员，猜测非正式会员为5000，正式会员为10000"""
-    mobile_verify: int = None
+    mobile_verify: int = 0
     """是否绑定手机"""
-    uname_color: str = None
+    uname_color: str = ''
     """用户名颜色"""
 
-    medal_level: str = None
+    medal_level: str = ''
     """勋章等级"""
-    medal_name: str = None
+    medal_name: str = ''
     """勋章名"""
-    runame: str = None
+    runame: str = ''
     """勋章房间主播名"""
-    medal_room_id: int = None
+    medal_room_id: int = 0
     """勋章房间ID"""
-    mcolor: int = None
+    mcolor: int = 0
     """勋章颜色"""
-    special_medal: str = None
+    special_medal: str = ''
     """特殊勋章"""
 
-    user_level: int = None
+    user_level: int = 0
     """用户等级"""
-    ulevel_color: int = None
+    ulevel_color: int = 0
     """用户等级颜色"""
-    ulevel_rank: str = None
+    ulevel_rank: str = ''
     """用户等级排名，>50000时为'>50000'"""
 
-    old_title: str = None
+    old_title: str = ''
     """旧头衔"""
-    title: str = None
+    title: str = ''
     """头衔"""
 
-    privilege_type: int = None
+    privilege_type: int = 0
     """舰队类型，0非舰队，1总督，2提督，3舰长"""
 
     @classmethod
-    def from_command(cls, command: dict):
-        info = command['info']
-    
+    def from_command(cls, info: list):
+        mode_info = info[0][15]
+        try:
+            face = mode_info['user']['base']['face']
+        except (TypeError, KeyError):
+            face = ''
+
         if len(info[3]) != 0:
             medal_level = info[3][0]
             medal_name = info[3][1]
@@ -132,19 +133,13 @@ class DanmakuMessage:
             mcolor = 0
             special_medal = 0
 
-        try:
-            face = pb_models.DanmakuMessageV2.loads(base64.b64decode(command['dm_v2'])).user.face
-        except:
-            face = None
-        """
-        示例：
-        {'dm_v2': 'CiIxMmM2ZDg4MGQ5Yjc3Njc3NTI1NTA1NjFjYjY0YTJmYjU5EAEYGSDP2v8HKghkODU4ZWQ3MzIG5ZGc5ZGcOMHUk+WRMU
-         jl2cv+AWIAaAFydwoG5ZGc5ZGcEm0KE3Jvb21fMTA0MTMwNTFfMzY5NDkSSmh0dHBzOi8vaTAuaGRzbGIuY29tL2Jmcy9nYXJiLzMxYj
-         I4ZjRlZjQ0NmYxNmYzZDEyZGU3ZTYzMmFlNjBhMmE0NDAyZWIucG5nGAEgASgBMKIBOKIBigEAmgEQCghFRTQ5MzU1OBCd9oulBqIBpQ
-         EIwofiBBIP5biD5LiB55Wq6IyE6IyEIkpodHRwczovL2kwLmhkc2xiLmNvbS9iZnMvZmFjZS9mY2NjY2MxOTQ3N2M0YzYzMGE0MjMwMj
-         liYmViYjk1N2NkZGFkOWMyLmpwZziQTkABWiMIERIJ54ix6I2U5LidIKS6ngYwpLqeBjikup4GQKS6ngZQAWIPCBUQ3q3iAhoGPjUwMD
-         AwagByAHoCCB+qARoIt+vxwQQSDeiNlOaenVl1cmliaXUY+8f7BA=='}
-        """
+        if len(info[5]) != 0:
+            old_title = info[5][0]
+            title = info[5][1]
+        else:
+            old_title = ''
+            title = ''
+
         return cls(
             mode=info[0][1],
             font_size=info[0][2],
@@ -157,7 +152,7 @@ class DanmakuMessage:
             dm_type=info[0][12],
             emoticon_options=info[0][13],
             voice_config=info[0][14],
-            mode_info=info[0][15],
+            mode_info=mode_info,
 
             msg=info[1],
 
@@ -182,8 +177,8 @@ class DanmakuMessage:
             ulevel_color=info[4][2],
             ulevel_rank=info[4][3],
 
-            old_title=info[5][0],
-            title=info[5][1],
+            old_title=old_title,
+            title=title,
 
             privilege_type=info[7],
         )
@@ -192,8 +187,11 @@ class DanmakuMessage:
     def emoticon_options_dict(self) -> dict:
         """
         示例：
+
+        ```
         {'bulge_display': 0, 'emoticon_unique': 'official_13', 'height': 60, 'in_player_area': 1, 'is_dynamic': 1,
          'url': 'https://i0.hdslb.com/bfs/live/a98e35996545509188fe4d24bd1a56518ea5af48.png', 'width': 183}
+         ```
         """
         if isinstance(self.emoticon_options, dict):
             return self.emoticon_options
@@ -206,17 +204,44 @@ class DanmakuMessage:
     def voice_config_dict(self) -> dict:
         """
         示例：
+
+        ```
         {'voice_url': 'https%3A%2F%2Fboss.hdslb.com%2Flive-dm-voice%2Fb5b26e48b556915cbf3312a59d3bb2561627725945.wav
          %3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Credential%3D2663ba902868f12f%252F20210731%252Fshjd%252Fs3%25
          2Faws4_request%26X-Amz-Date%3D20210731T100545Z%26X-Amz-Expires%3D600000%26X-Amz-SignedHeaders%3Dhost%26
          X-Amz-Signature%3D114e7cb5ac91c72e231c26d8ca211e53914722f36309b861a6409ffb20f07ab8',
          'file_format': 'wav', 'text': '汤，下午好。', 'file_duration': 1}
+         ```
         """
         if isinstance(self.voice_config, dict):
             return self.voice_config
         try:
             return json.loads(self.voice_config)
         except (json.JSONDecodeError, TypeError):
+            return {}
+
+    @property
+    def extra_dict(self) -> dict:
+        """
+        示例：
+
+        ```
+        {'send_from_me': False, 'mode': 0, 'color': 14893055, 'dm_type': 0, 'font_size': 25, 'player_mode': 4,
+        'show_player_type': 0, 'content': '确实', 'user_hash': '2904574201', 'emoticon_unique': '', 'bulge_display': 0,
+        'recommend_score': 5, 'main_state_dm_color': '', 'objective_state_dm_color': '', 'direction': 0,
+        'pk_direction': 0, 'quartet_direction': 0, 'anniversary_crowd': 0, 'yeah_space_type': '', 'yeah_space_url': '',
+        'jump_to_url': '', 'space_type': '', 'space_url': '', 'animation': {}, 'emots': None, 'is_audited': False,
+        'id_str': '6fa9959ab8feabcd1b337aa5066768334027', 'icon': None, 'show_reply': True, 'reply_mid': 0,
+        'reply_uname': '', 'reply_uname_color': '', 'reply_is_mystery': False, 'reply_type_enum': 0, 'hit_combo': 0,
+        'esports_jump_url': ''}
+        ```
+        """
+        try:
+            extra = self.mode_info['extra']
+            if isinstance(extra, dict):
+                return extra
+            return json.loads(extra)
+        except (KeyError, json.JSONDecodeError, TypeError):
             return {}
 
 
@@ -226,35 +251,35 @@ class GiftMessage:
     礼物消息
     """
 
-    gift_name: str = None
+    gift_name: str = ''
     """礼物名"""
-    num: int = None
+    num: int = 0
     """数量"""
-    uname: str = None
+    uname: str = ''
     """用户名"""
-    face: str = None
+    face: str = ''
     """用户头像URL"""
-    guard_level: int = None
+    guard_level: int = 0
     """舰队等级，0非舰队，1总督，2提督，3舰长"""
-    uid: int = None
+    uid: int = 0
     """用户ID"""
-    timestamp: int = None
+    timestamp: int = 0
     """时间戳"""
-    gift_id: int = None
+    gift_id: int = 0
     """礼物ID"""
-    gift_type: int = None
+    gift_type: int = 0
     """礼物类型（未知）"""
-    action: str = None
+    action: str = ''
     """目前遇到的有'喂食'、'赠送'"""
-    price: int = None
+    price: int = 0
     """礼物单价瓜子数"""
-    rnd: str = None
+    rnd: str = ''
     """随机数，可能是去重用的。有时是时间戳+去重ID，有时是UUID"""
-    coin_type: str = None
+    coin_type: str = ''
     """瓜子类型，'silver'或'gold'，1000金瓜子 = 1元"""
-    total_coin: int = None
+    total_coin: int = 0
     """总瓜子数"""
-    tid: str = None
+    tid: str = ''
     """可能是事务ID，有时和rnd相同"""
 
     @classmethod
@@ -284,23 +309,23 @@ class GuardBuyMessage:
     上舰消息
     """
 
-    uid: int = None
+    uid: int = 0
     """用户ID"""
-    username: str = None
+    username: str = ''
     """用户名"""
-    guard_level: int = None
+    guard_level: int = 0
     """舰队等级，0非舰队，1总督，2提督，3舰长"""
-    num: int = None
+    num: int = 0  # 可以理解为礼物数量？
     """数量"""
-    price: int = None
+    price: int = 0
     """单价金瓜子数"""
-    gift_id: int = None
+    gift_id: int = 0
     """礼物ID"""
-    gift_name: str = None
+    gift_name: str = ''
     """礼物名"""
-    start_time: int = None
+    start_time: int = 0
     """开始时间戳，和结束时间戳相同"""
-    end_time: int = None
+    end_time: int = 0
     """结束时间戳，和开始时间戳相同"""
 
     @classmethod
@@ -319,48 +344,99 @@ class GuardBuyMessage:
 
 
 @dataclasses.dataclass
+class UserToastV2Message:
+    """
+    另一个上舰消息，包含的数据更多
+    """
+
+    uid: int = 0
+    """用户ID"""
+    username: str = ''
+    """用户名"""
+    guard_level: int = 0
+    """舰队等级，0非舰队，1总督，2提督，3舰长"""
+    num: int = 0  # 可以理解为礼物数量？
+    """数量"""
+    price: int = 0
+    """单价金瓜子数"""
+    unit: str = ''
+    """单位，根据开放平台的文档，正常单位为“月”，如为其他内容，无视`guard_num`以本字段内容为准，例如`*3天`"""
+    gift_id: int = 0
+    """礼物ID"""
+    start_time: int = 0
+    """开始时间戳，和结束时间戳相同"""
+    end_time: int = 0
+    """结束时间戳，和开始时间戳相同"""
+    source: int = 0
+    """猜测0是自己买的，2是别人送的，这个只影响是否播动画"""
+    toast_msg: str = ''
+    """提示信息（"<%XXX%> 在主播XXX的直播间续费了舰长，今天是TA陪伴主播的第XXX天"）"""
+
+    @classmethod
+    def from_command(cls, data: dict):
+        sender_info = data['sender_uinfo']
+        guard_info = data['guard_info']
+        pay_info = data['pay_info']
+        gift_info = data['gift_info']
+        option = data['option']
+        return cls(
+            uid=sender_info['uid'],
+            username=sender_info['base']['name'],
+            guard_level=guard_info['guard_level'],
+            num=pay_info['num'],
+            price=pay_info['price'],
+            unit=pay_info['unit'],
+            gift_id=gift_info['gift_id'],
+            start_time=guard_info['start_time'],
+            end_time=guard_info['end_time'],
+            source=option['source'],
+            toast_msg=data['toast_msg'],
+        )
+
+
+@dataclasses.dataclass
 class SuperChatMessage:
     """
     醒目留言消息
     """
 
-    price: int = None
+    price: int = 0
     """价格（人民币）"""
-    message: str = None
+    message: str = ''
     """消息"""
-    message_trans: str = None
-    """消息日文翻译（目前只出现在SUPER_CHAT_MESSAGE_JPN）"""
-    start_time: int = None
+    message_trans: str = ''
+    """消息日文翻译"""
+    start_time: int = 0
     """开始时间戳"""
-    end_time: int = None
+    end_time: int = 0
     """结束时间戳"""
-    time: int = None
+    time: int = 0
     """剩余时间（约等于 结束时间戳 - 开始时间戳）"""
-    id: int = None
+    id: int = 0
     """醒目留言ID，删除时用"""
-    gift_id: int = None
+    gift_id: int = 0
     """礼物ID"""
-    gift_name: str = None
+    gift_name: str = ''
     """礼物名"""
-    uid: int = None
+    uid: int = 0
     """用户ID"""
-    uname: str = None
+    uname: str = ''
     """用户名"""
-    face: str = None
+    face: str = ''
     """用户头像URL"""
-    guard_level: int = None
+    guard_level: int = 0
     """舰队等级，0非舰队，1总督，2提督，3舰长"""
-    user_level: int = None
+    user_level: int = 0
     """用户等级"""
-    background_bottom_color: str = None
+    background_bottom_color: str = ''
     """底部背景色，'#rrggbb'"""
-    background_color: str = None
+    background_color: str = ''
     """背景色，'#rrggbb'"""
-    background_icon: str = None
+    background_icon: str = ''
     """背景图标"""
-    background_image: str = None
+    background_image: str = ''
     """背景图URL"""
-    background_price_color: str = None
+    background_price_color: str = ''
     """背景价格颜色，'#rrggbb'"""
 
     @classmethod
@@ -394,11 +470,41 @@ class SuperChatDeleteMessage:
     删除醒目留言消息
     """
 
-    ids: List[int] = None
+    ids: List[int] = dataclasses.field(default_factory=list)
     """醒目留言ID数组"""
 
     @classmethod
     def from_command(cls, data: dict):
         return cls(
             ids=data['ids'],
+        )
+
+
+@dataclasses.dataclass
+class InteractWordMessage:
+    """
+    进入房间、关注主播等互动消息
+    """
+
+    uid: int = 0
+    """用户ID"""
+    username: str = ''
+    """用户名"""
+    face: str = ''
+    """用户头像URL"""
+    timestamp: int = 0
+    """时间戳"""
+    msg_type: int = 0
+    """`{1: '进入', 2: '关注了', 3: '分享了', 4: '特别关注了', 5: '互粉了', 6: '为主播点赞了'}`"""
+
+    @classmethod
+    def from_command(cls, data: dict):
+        user_info = data['uinfo']
+        user_base_info = user_info['base']
+        return cls(
+            uid=user_info['uid'],
+            username=user_base_info['name'],
+            face=user_base_info['face'],
+            timestamp=data['timestamp'],
+            msg_type=data['msg_type'],
         )
